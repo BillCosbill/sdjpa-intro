@@ -4,4 +4,4 @@ create table book_uuid (
                       publisher varchar(255),
                       title varchar(255),
                       primary key (id)
-);
+) engine=InnoDB;
